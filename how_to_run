@@ -1,0 +1,25 @@
+Terminal 1 (Python Virtual Environment):
+
+
+# Navigate to your Flask project directory
+cd path/to/your/flask/project
+
+# Activate virtual environment
+.\venv\Scripts\activate  # On Windows
+# or
+source venv/bin/activate  # On macOS/Linux
+
+# Run Flask server
+python run.py
+
+
+Terminal 2 (React Project):
+
+# Navigate to your React project directory
+cd path/to/your/anti-spoofing-face-recognition
+
+# Install Axios (if not already installed)
+npm install axios
+
+# Start React development server
+npm start
